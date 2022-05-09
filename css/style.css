@@ -1,0 +1,185 @@
+.container {
+    margin: auto;
+    overflow: hidden;
+    max-width: 1100px;
+}
+
+.btn {
+    background: blue;
+    color: #fff;
+    padding: 0.5rem 2rem;
+
+}
+
+#main-header {
+    background-color: blue;
+}
+
+
+#main-header .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#main-header .main-nav h1 {
+    font-size: 25px;
+    font-weight:bold;
+}
+#main-header .main-nav h1 i {
+    color: aqua;
+}
+
+#main-header .main-nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+#main-header .main-nav ul li {
+    margin-right: 1.5rem;
+}
+
+#main-header .main-nav ul li a {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#img-section .img-section-content h1 {
+    font-size: 25px;
+    font-weight: bold;
+    position:absolute;
+    margin-top: 2rem;
+    margin-left: 35rem;
+    color: #fff;
+}
+
+#img-section .img-section-content{
+    margin-top: 2rem;
+}
+
+#img-section .img-section-content img {
+    border-radius: 10px;
+}
+
+#form-section form {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#form-section form .name label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#form-section form .name {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+#form-section form .name input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#form-section form .email {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 0.5rem;
+}
+
+#form-section form .email input {
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+#form-section form .email label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#form-section form .phone {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 2rem;
+}
+
+#form-section form .phone input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#form-section form .phone label {
+    font-weight: bold;
+}
+
+#form-section .checkbox {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+#form-section .checkbox-heading {
+    margin: 1.5rem 0;
+    font-weight: bold;
+}
+
+#form-section .checkbox-left {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+}
+
+#form-section .box {
+    font-weight: bold;
+}
+
+#form-section .textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-section .textarea label {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+#form-section .textarea textarea {
+    width: 600px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#main-footer {
+    background: blue;
+    padding: 2rem;
+    color: #fff;
+}
+
+#main-footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-footer .footer-content h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#main-footer .rights{
+    text-align: center;
+}
+
+
+
+
+
+
